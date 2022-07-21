@@ -9,7 +9,7 @@ include('hms/include/config.php');
     <head>
         <title>Online Doctor Appointment</title>
         <link rel="icon" href="images/smile.png">
-        <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+        <link href="./css/style.css" rel="stylesheet" type="text/css"  media="all" />
         <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/responsiveslides.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -213,10 +213,10 @@ include('hms/include/config.php');
             </div>
             <div class="footer-right">
 
-                <a href="#" id="Home" >  Click To Top</a>
+                <a href="index.php" id="Home" class="top" >  Click To Top</a>
             </div>
             <div>
-                <p > &copy;2018 Online Doctor Appointment | All Rights Reserved | Developed by Md. Raduan Islam </p>
+                <p > &copy;<?= date('Y')?> Online Doctor Appointment | All Rights Reserved | Developed by <a href="https://github.com/raduancse" target="_blank">Md. Raduan Islam</a> </p>
             </div>
 
             <div class="clear"> </div>

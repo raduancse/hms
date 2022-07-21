@@ -22,11 +22,16 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
+
+html {
+scroll-behavior: smooth;
+
+}
 body{
 	background:#F8FBFB;
 }
 .wrap{
-	width:70%;
+	width:90%;
 	margin:0 auto;
 }
 .header{
@@ -38,6 +43,8 @@ body{
 }
 .top-nav{
 	float:right;
+	margin-top: 14px;
+
         
 }
 .top-nav ul li{
@@ -53,7 +60,7 @@ body{
 	background:#343148;
 	color: #fff;
 	text-transform: uppercase;
-	padding: 30px;
+	padding: 10px;
 	display: block;
 }
 .top-nav ul li a:hover{
